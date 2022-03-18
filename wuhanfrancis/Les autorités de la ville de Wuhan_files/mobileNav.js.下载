@@ -1,0 +1,64 @@
+// 移动端nav
+$(function () {
+
+    var right = $('.wapNavBox');
+    var bg = $('.m-mask');
+    var rightNav = $('.m-wapnav-body');
+    showNav(right, rightNav, "right");
+
+    function showNav(btn, navDiv, direction) {
+        btn.on('click', function () {
+            bg.css({
+                display: "block",
+                transition: "opacity .5s"
+            });
+            $("body").css({
+                /* overflowY:"hidden" */
+                position: "fixed",
+                width: "100%",
+                height: "100%"
+            });
+            if (direction == "right") {
+                navDiv.css({
+                    right: "0px",
+                    transition: "right .5s"
+                });
+            } else if (direction == "left") {
+                navDiv.css({
+                    left: "0px",
+                    transition: "left 1s"
+                });
+            } else if (direction == "up") {
+                navDiv.css({
+                    top: "0px",
+                    transition: "top 1s"
+                });
+            } else if (direction == "down") {
+                navDiv.css({
+                    bottom: "0px",
+                    transition: "bottom 1s"
+                });
+            }
+        });
+    }
+
+    bg.on('click', function () {
+        hideNav();
+    });
+
+    function hideNav() {
+        rightNav.css({
+            right: "-70%",
+            transition: "right .5s"
+        });
+        bg.css({
+            display: "none",
+            transition: "display 1s"
+        });
+        $("body").css({
+            position: "absolute"
+        });
+    }
+
+
+});
