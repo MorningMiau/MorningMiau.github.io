@@ -1,0 +1,441 @@
+<!doctype html>
+<html>
+<head>
+  <link href="Images/logo.ico" rel="shortcut icon">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <title>末灵市政府 | The goverment of Morning</title>
+  <!-- Boxiocns CDN Link -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+*{
+	list-style: none;
+}
+#table0{
+  align-items: center;
+  align-self: auto;
+  align-content: center;
+}
+.ullist li{
+	width: 80px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+.f0 {
+	text-align: right;
+}
+#f1 {
+	text-decoration: none;
+}
+a:link {
+	text-decoration: none;
+	color: #0766B4;
+}
+a:visited {
+	text-decoration: none;
+	color: #06F;
+}
+a:hover {
+	text-decoration: none;
+	color: #F00;
+}
+a:active {
+	text-decoration: none;
+}
+.f5 {
+	text-align: center;
+}
+.f5 {
+	color: #FFF;
+}
+.a:hover{
+	background-color: #2edaf9;
+}
+.ullist li{
+	float: left;
+	width: 80px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+
+
+.main{
+	width: 1200px;
+	height: 315px;
+	overflow: hidden;
+	position: relative;
+}
+.btys{
+	position: absolute;
+	width: 1200px;
+	height: 50px;
+	background: black;
+	bottom: 0px;
+	left: 0px;
+	opacity: 0.6;
+}
+.main a{
+	font-size: 20px;
+	position: absolute;
+	bottom: 10px;
+	left: 5px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	margin: 0 auto 0 auto;
+}
+.main a:hover{
+	color: #34bff0;
+	transition: 0.6s;
+}
+.main a:not(:hover){
+	color: #fff;
+	transition: 0.5s;
+}
+.MainImg:hover{
+	transform: scale(1.2);
+	transition: 0.5s;
+}
+.MainImg:not(:hover){
+	transform: scale(1);
+	transition: 0.5s;
+}
+.none:hover{
+	transform: scale(1.2);
+	transition: 0.5s;
+}
+.none a:not(:hover){
+	transform: scale(1);
+	transform: 0.5s;
+}
+.none a{
+	text-decoration: none;
+	color: #0766B4;
+}
+.none a:hover{
+	color: red;
+}
+.none a:not(:hover){
+	color: #0766B4;
+}
+</style>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('Images/wuhan2.jpg','Images/wuhan3.jpg','Images/wuahn4.jpg','Images/尤尤.jpg','Images/pic00.jpeg','Images/600x200.jpg')">
+
+  <!-- ----------------------------------------------------------------------------->
+<div class="sidebar">
+  <div class="logo-details">
+    <i class='bx bxl-c-plus-plus'></i>
+    <span class="logo_name">CodingLab</span>
+  </div>
+  <ul class="nav-links">
+    <li>
+      <a href="#">
+        <i class='bx bx-grid-alt' ></i>
+        <span class="link_name">Dashboard</span>
+      </a>
+      <ul class="sub-menu blank">
+        <li><a class="link_name" href="#">Category</a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="iocn-link">
+        <a href="#">
+          <i class='bx bx-collection' ></i>
+          <span class="link_name">Category</span>
+        </a>
+        <i class='bx bxs-chevron-down arrow' ></i>
+      </div>
+      <ul class="sub-menu">
+        <li><a class="link_name" href="#">Category</a></li>
+        <li><a href="#">HTML & CSS</a></li>
+        <li><a href="#">JavaScript</a></li>
+        <li><a href="#">PHP & MySQL</a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="iocn-link">
+        <a href="#">
+          <i class='bx bx-book-alt' ></i>
+          <span class="link_name">Posts</span>
+        </a>
+        <i class='bx bxs-chevron-down arrow' ></i>
+      </div>
+      <ul class="sub-menu">
+        <li><a class="link_name" href="#">Posts</a></li>
+        <li><a href="#">Web Design</a></li>
+        <li><a href="#">Login Form</a></li>
+        <li><a href="#">Card Design</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">
+        <i class='bx bx-pie-chart-alt-2' ></i>
+        <span class="link_name">Analytics</span>
+      </a>
+      <ul class="sub-menu blank">
+        <li><a class="link_name" href="#">Analytics</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">
+        <i class='bx bx-line-chart' ></i>
+        <span class="link_name">Chart</span>
+      </a>
+      <ul class="sub-menu blank">
+        <li><a class="link_name" href="#">Chart</a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="iocn-link">
+        <a href="#">
+          <i class='bx bx-plug' ></i>
+          <span class="link_name">Plugins</span>
+        </a>
+        <i class='bx bxs-chevron-down arrow' ></i>
+      </div>
+      <ul class="sub-menu">
+        <li><a class="link_name" href="#">Plugins</a></li>
+        <li><a href="#">UI Face</a></li>
+        <li><a href="#">Pigments</a></li>
+        <li><a href="#">Box Icons</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">
+        <i class='bx bx-compass' ></i>
+        <span class="link_name">Explore</span>
+      </a>
+      <ul class="sub-menu blank">
+        <li><a class="link_name" href="#">Explore</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">
+        <i class='bx bx-history'></i>
+        <span class="link_name">History</span>
+      </a>
+      <ul class="sub-menu blank">
+        <li><a class="link_name" href="#">History</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">
+        <i class='bx bx-cog' ></i>
+        <span class="link_name">Setting</span>
+      </a>
+      <ul class="sub-menu blank">
+        <li><a class="link_name" href="#">Setting</a></li>
+      </ul>
+    </li>
+    <li>
+  <div class="profile-details">
+    <div class="profile-content">
+      <img src="image/profile.jpg" alt="profile">
+    </div>
+    <div class="name-job">
+      <div class="profile_name">Prem Shahi</div>
+      <div class="job">Web Desginer</div>
+    </div>
+    <i class='bx bx-log-out' ></i>
+  </div>
+</li>
+</ul>
+</div>
+<section class="home-section">
+  <div class="home-content">
+    <i class='bx bx-menu' ></i>
+    <span class="text">Drop Down Sidebar</span>
+  </div>
+  <!-- ----------------------------------------------------------------------------- -->
+  <div class="body">
+    <table width="1200" id="table0">
+    <tbody>
+      <tr>
+        <td colspan="6" class="f0"><a href="https://morningmiau.github.io/index.html">简体中文</a> | <a href="https://morningmiau.github.io/languages/zh_cn.html">繁體中文</a> | <a href="https://morningmiau.github.io/languages/us_en.html">English</a> | Weglish<a href="indexold.html">&nbsp;&nbsp;&nbsp;&nbsp;返回旧版</a></td>
+      </tr>
+      <tr>
+        <td width="1200" colspan="6"><p style="font-family: '微软雅黑'; text-align: left; color: #148EDC; font-size: 36px;"><strong onClick="MM_swapImage('Image0','','Images/尤尤.jpg',1);MM_swapImage('Image1','','Images/600x200.jpg',1)">末灵市·路宸尼亚</strong></p></td>
+      </tr>
+      <tr style="text-align: center; font-family: '微软雅黑';">
+      <td><div><ul class="ullist">
+        <td width="16%" id="f1"><li><strong><a href="index.html" class="a">首页</a></strong></li></td>
+        <td width="16%"><li><strong><a href="#" class="a">新闻</a></strong></li></td>
+        <td width="16%"><li><strong><a href="#" class="a">城市风采</a></strong></li></td>
+        <td width="16%"><li><strong><a href="#" class="a">发展规划</a></strong></li></td>
+        <td width="16%"><li><strong><a href="#" class="a">市立学校</a></strong></li></td>
+        <td width="16%"><li><strong><a href="#" class="a">城市历史</a></strong></li></td>
+      </ul></div></td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+  <table width="1200" border="0" align="center">
+    <tbody>
+      <tr>
+        <td colspan="2"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+            <tr>
+              <td>
+          <div class="main">
+            <img src="Images/pic01.png" width="1200" height="315" alt="" id="Image1" class="MainImg"/>
+            <div class="btys"></div>
+            <a href="#" align="center">&nbsp;&nbsp;&nbsp;末灵市·路宸尼亚</a>
+          </div>
+        </td>
+            </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td colspan="2">&nbsp;</td>
+      </tr>
+      <tr>
+        <td colspan="2" style="color: #148EDC; font-family: '微软雅黑'; font-size: 24px;"><strong>你可能感兴趣</strong></td>
+      </tr>
+      <tr>
+        <td colspan="2"><table width="100%" border="0" cellpadding="10" cellspacing="10">
+          <tbody>
+            <tr>
+              <td width="25%"><table width="100%" border="3" bordercolor="#7fb3db">
+                <tbody>
+                  <tr style="text-align: center; color: #0766B4; font-family: '微软雅黑';">
+                    <td><p><strong>游戏联机服务器</strong></p>
+                      <p onClick="MM_popupMsg('IP：123.160.10.39:45165')" class="none"><a href="#">山海宝可梦</a></p>
+                      <p onClick="MM_popupMsg('IP：175.10.33.190； 端口默认：7777')" class="none"><a href="#">泰拉瑞亚</a></p>
+                      <p>占位</p>
+                      <p>占位</p>
+                      <p>占位</p></td>
+                  </tr>
+                </tbody>
+              </table></td>
+              <td width="25%"><table width="100%" border="3" bordercolor="#7fb3db">
+                <tbody>
+                  <tr style="font-family: '微软雅黑'; text-align: center; color: #0766B4;">
+                    <td><p><strong>服务器客户端下载</strong></p>
+                      <p>占位</p>
+                      <p class="none"><a href="files\泰拉瑞亚v1.4.0.5_GOG平台原版未加密游戏包.zip">泰拉瑞亚</a></p>
+                      <p>占位</p>
+                      <p>占位</p>
+                      <p>占位</p></td>
+                  </tr>
+                </tbody>
+              </table></td>
+              <td width="25%"><table width="100%" border="3" bordercolor="#7fb3db">
+                <tbody>
+                  <tr style="font-family: '微软雅黑'; text-align: center; color: #0766B4;">
+                    <td><p><strong>长期居住</strong></p>
+                      <p>占位</p>
+                      <p>占位</p>
+                      <p>占位</p>
+                      <p>占位</p>
+                      <p>占位</p></td>
+                  </tr>
+                </tbody>
+              </table></td>
+              <td width="25%"><table width="100%" border="3" bordercolor="#7fb3db">
+                <tbody>
+                  <tr style="font-family: '微软雅黑'; text-align: center; color: #0766B4;">
+                    <td><p><strong>企业投资</strong></p>
+                      <p>占位</p>
+                      <p>占位</p>
+                      <p>占位</p>
+                      <p>占位</p>
+                      <p>占位</p></td>
+                  </tr>
+                </tbody>
+              </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+      </tr>
+      <tr>
+        <td colspan="2">&nbsp;</td>
+      </tr>
+      <tr>
+        <td colspan="2" style="color: #148EDC; font-family: '微软雅黑'; font-size: 24px;"><span style=""><strong>城市新闻</strong></span></td>
+      </tr>
+      <tr>
+        <td width="963" rowspan="4"><table width="79%" border="0" cellspacing="5" cellpadding="5" align="center">
+            <tr>
+              <td><img src="Images/wuhan0.png" name="Image0" width="872" height="600" id="Image0"></td>
+            </tr>
+        </table></td>
+        <td width="239"><img src="Images/pic00.jpeg" width="240" height="150" onClick="MM_swapImage('Image0','','Images/pic00.jpeg',1)"></td>
+      </tr>
+      <tr>
+        <td><img src="Images/wuhan2.jpg" width="240" height="150" onClick="MM_swapImage('Image0','','Images/wuhan2.jpg',1)"></td>
+      </tr>
+      <tr>
+        <td><img src="Images/wuhan3.jpg" width="240" height="150" onClick="MM_swapImage('Image0','','Images/wuhan3.jpg',1)"></td>
+      </tr>
+      <tr>
+        <td><img src="Images/wuahn4.jpg" width="240" height="150" onClick="MM_swapImage('Image0','','Images/wuahn4.jpg',1)"></td>
+      </tr>
+      <tr>
+        <td colspan="2">&nbsp;</td>
+      </tr>
+    </tbody>
+  </table>
+  <table width="100%" border="0" background="Images/pic00.png">
+    <tbody>
+      <tr>
+        <td width="1000%" height="112"><p class="f5"><span class="f5">Copyright 2021 All Rights Reserved.</span></p>
+        <p class="f5"><span class="f5">Sponsored by Wuhan Municipal Government Prepared by Wuhan Municipal Bureau of Information Industry and Wuhan Municipal Information Center</span></p></td>
+      </tr>
+    </tbody>
+  </table>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  </div>
+</section>
+
+<script>
+let arrow = document.querySelectorAll(".arrow");
+for (var i = 0; i < arrow.length; i++) {
+  arrow[i].addEventListener("click", (e)=>{
+ let arrowParent = e.target.parentElement.parentElement;
+ arrowParent.classList.toggle("showMenu");
+  });
+}
+
+let sidebar = document.querySelector(".sidebar");
+let sidebarBtn = document.querySelector(".bx-menu");
+console.log(sidebarBtn);
+sidebarBtn.addEventListener("click", ()=>{
+  sidebar.classList.toggle("close");
+});
+</script>
+<!-- ------------------------------------------------------------------------------->
+
+</body>
+</html>
