@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .login{
+            width: 350px;
+            height: 520px;
+            background-color: #fff;
+            border-radius: 13px;
+            margin: 100px auto;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        body{
+            background-color: #028002;
+        }
+        .flex{
+            flex: 1;
+            text-align: left;
+            line-height: 50px;
+        }
+        .login-top{
+            background: #e6e5e3;
+            color: black;
+            flex: 1;
+            text-align: left;
+            line-height: 50px;
+        }
+        .login-top font{
+			position: relative;
+			left: 15px;
+			font-weight: bolder;
+			position: relative;
+			top: 2px;
+        }
+		.main{
+			background-color: #0c860f;
+			margin: 100px auto;
+			width: 350px;
+			height: 200px;
+			position: relative;
+			top: -80px;
+			border-radius: 7px;
+		}
+		.login-font{
+			margin: 0 auto 0 auto;
+			font-size: 32px;
+			font-family: "微软雅黑";
+			font-weight: 600;
+			height: 500px;
+			width: 350px;
+			text-align: center;
+		}
+		p{
+			line-height:40%;
+		}
+		.main-font{
+			position: relative;
+			top: -10px;
+		}
+		#main-font-top{
+			position: relative;
+			top: -18px;
+			font-size: 14px;
+			font-family: "等线";
+		}
+		#font{
+			color: #027e04;
+		}
+		.main-font img{
+			height: 220px;
+			position: relative;
+			top: -15px;
+		}
+		#main-font-erweima{
+			position: relative;
+			top: -10mm;
+			font-size: 13.6px;
+			font-family: "等线";
+			color: #818386;
+		}
+		#main-font-yimiao{
+			position: relative;
+			top: -10.5mm;
+			font-size: 17px;
+			font-family: "等线";
+			color: #d9b288;
+		}
+		#main-font-xingming{
+			position: relative;
+			top: -10.5mm;
+			font-size: 17px;
+			font-family: "微软雅黑";
+			color: black;
+		}
+		.bot-main{
+			text-align: left;
+			color: white;
+			font-family: "等线";
+			margin: 0 auto 0 auto;
+			position: relative;
+			top: 15px;
+			left: 20px;
+		}
+		.bot-hr{
+			position: relative;
+			top: 20px;
+			border-color: #5fba5c;
+			border-top: none;
+		}
+		.bot-main2{
+			text-align: left;
+			color: white;
+			font-family: "等线";
+			margin: 0 auto 0 auto;
+			position: relative;
+			top: 25px;
+			left: 20px;
+		}
+		.bot-hr2{
+			position: relative;
+			top: 30px;
+			border-color: #5fba5c;
+			border-top: none;
+		}
+	</style>
+</head>
+<body>
+    <div class="login">
+        <div class="login-top"><font>电子健康通行码</font></div>
+        <div>
+			<table background="健康码2.png">
+				<tr>
+					<td>
+						<div class="login-font">
+							<p class="main-font">07月12日</p>
+							<p class="main-font">12:28:06</p>
+							<p class="main-font" id="main-font-top">健康状况核验<font id="font">未见异常（绿码）</font></p>
+							<p class="main-font"><img src="健康码.png"></p>
+							<p class="main-font" id="main-font-erweima">点击二维码刷新</p>
+							<p class="main-font" id="main-font-yimiao">已接种新冠疫苗</p>
+							<p class="main-font" id="main-font-xingming">**硕</p>
+							<p class="main-font" id="main-font-xingming">3711************5X</p>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+    </div>
+    <div class="main">
+		<div class="bot-main">支付宝乘车码</div>
+		<div><hr class="bot-hr"></div>
+		<div class="bot-main2">核酸检测信息查询</div>
+		<div><hr class="bot-hr2"></div>
+	</div>
+</body>
+</html>
